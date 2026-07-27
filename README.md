@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 📘 Portafolio de Evidencias
 
@@ -60,7 +60,7 @@ Portafolio-Codificación de Páginas Web/
 |  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                                                                                                                                                                                                                                   | [ver](unidad-02/sitio-demo/index.html) |                                                                     [ver](recursos/)                                                                      |
 |  S03   | Estructura del documento HTML5 |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
 |  S04   | Texto, enlaces y anclas        | Profundizamos en la estructura y organización de documentos HTML mediante la implementación de etiquetas semánticas, mejorando la accesibilidad y el orden lógico del sitio. Asimismo, integramos enlaces de tipo ancla para optimizar la navegación interna dentro de la misma página |           [ver](unidad-02/)            | [ver](recursos/Evidencia-favicon.png/S.4.Enlaces-tipo-anclas1.png/S.4.Enlaces-tipo-anclas.png/S.4.Enlaces-tipo-anclas3.png/S.4.Texto_Semantico_citas.png) |
-|  S05   | Listas y tablas                |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
+|  S05   | Listas y tablas|Aprendi a trabajar los tres tipos de listas con su tipo y estilos. Tambien la parte de tablas semanticas|[ver](unidad-02/)            |                                                                     [ver](Unidad-02-html/unidad-02/sitio-demo/recursos/S05.png)                                                                      |
 |  S06   | Formularios y semántica        |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
 |  S07   | Multimedia                     |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
 |  S08   | SVG y repaso                   |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
@@ -124,7 +124,7 @@ imágenes representativas de todo el módulo.)_
   <img src="recursos/ejemplo-escritorio.png" width="600" alt="Sitio personal en vista de escritorio">
 </p>
 
-<div align="center"><i>El sitio personal al cierre de la Unidad 3.</i></div>
+<div align="center" markdown="1"><i>El sitio personal al cierre de la Unidad 3.</i></div>
 
 ### El mismo sitio en dos anchos
 
@@ -168,7 +168,7 @@ _(Escribir al cerrar el módulo. Tres preguntas para orientarla:)_
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **Nombre Completo** · correo@ejemplo.com
 
