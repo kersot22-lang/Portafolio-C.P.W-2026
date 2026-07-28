@@ -23,26 +23,31 @@
        <h2>Formulario de matrícula</h2>
     <form action="#" method="post">
       <!--FORM: contenedor del formulario. action: es donde se envia el formulario method: es el método de envio. post: envio de datos por el cuerpo de la solicitud-->
-    
+    <fieldset>
         <legend>Informacion personal</legend>
 
 
 
-        <input>correo electrónico</input>
-        <label type="text" name="correo"></label><br>
+        
+        <label for="correo">correo</label> 
+        <input type="email" id="email" required><br><br>
 
 
 
-        <input>nombre</input>
-        <label type="text" name="nombre"></label><br>
+        
+        <label for="nombre">nombre</label> 
+        <input type="text" name="nombre" id="tel"><br><br>
 
+        <label for="tel">telefono</label> 
+        <input type="tel" name="tel" id="tel"><br><br>
 
-        <input telefono</input>
-         <label type="text" name="teléfono" pattern="[0-9]{10}" title="Ingresé un número de teléfono válido de 8 dígitos" placeholder="Ingrese su teléfono"></label><br>
-         
+        
+
 
         <input type="submit"value="Enviar Matrícula">
-        <>
+    </fieldset>
+        
+  
           <legend>Modalidad</legend label<br><br>
         <fieldset>
             <legend>Modalidad</legend>
