@@ -64,8 +64,6 @@ Portafolio-Codificación de Páginas Web/
 |  S06   | Formularios y semántica        | Aprendí a crear formularios y Semántica, el trío obligatorio del formulario label for e input id.                                                                                                                                                                                                                                                                                       |           [ver](Unidad-02-html/unidad-02/sitio-demo/registro.html)            |                                                                     [ver](recursos/Clase-numero-6%202026-07-28%20170359.jpg)                                                                      |
 |  S07   | Multimedia                     |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
 | S08   | Aprendi svg vectorial html                           |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
-
-</details>
 <!--
   ─────────────────────────────────────────────────────────────────────
   DÓNDE PEGAR ESTO
@@ -115,6 +113,9 @@ Proyecto propio construido de forma autónoma.
 
 **Comprobado en dos navegadores:**
 [Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
+
+</details>
+
 
 
 <details>
