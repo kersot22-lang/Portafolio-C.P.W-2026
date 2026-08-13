@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giocoto" />
+    <meta name="description" content="Imagen de la galería con contenido relacionado con HTML5"/>
+    <meta name="keywords" content="HTML5, estándar vivo, formatos, W3C, imágenes de laboratorio"/>
+    <title>Galería | Imágenes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<div class="contenedor">
+<body>
+    <!-- CABECERA (Sesión 6) -->
+  <header id="inicio">
+    <h1>Galería de imágenes</h1>
+    <p>Sitio de demostración del módulo <abbr title="Código del módulo">CSTI12002</abbr>.</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulo.html">Artículo</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="insignia.html">Insignia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <article>
+        <h2>Galería</h2>
+
+        <!--Imagen y sus atributos-->
+        <img src="recursos/S.7_Lab01.jpg" alt="Imagen de la galería de un laboratorio de informática" width="600" height="400" />
+
+        <!--FIGURE: AGRUPA UN CONTENIDO CON UN PIE-->
+        <figure>
+            <img src="recursos/S.7_Lab02.jpg" alt="Imagen de la galería de un laboratorio de informática" width="800" height="500" />
+            <figcaption>Imagen de un laboratorio de informática</figcaption>
+        </figure>
+
+        <!-- VARIOS FORMATOS: el navegador elige el uno -->
+        <figure class="figura-destacada">
+            <picture>
+                <source srcset="recursos/S.7_Lab01.webp" type="image/webp" />
+                <source srcset="recursos/S.7_Lab02.jpg" type="image/jpeg" />
+                <img src="recursos/S.7_Lab01.jpg" alt="Imagen de la galería de un laboratorio de informática" width="800" height="500" />
+            </picture>
+            <span class="etiqueta">Destacada</span>
+            <figcaption>Imagen de un laboratorio de informática</figcaption>
+        </figure>
+    
+
+        <!--AUDIO-->
+        <section id="audio">
+            <h3>Audio de Bienvenida</h3>
+
+            <audio controls>
+                <source src="recursos/End of Line (1).mp3" type="audio/mpeg" />
+                <source src="recursos/End-of-Line-_1_.ogg" type="audio/ogg" />
+            <p> Tu navegador no soporta el elemento de audio.</p>
+            <a href="recursos/End of Line (1).mp3">Descargar el archivo de audio</a>
+            </audio>
+        </section>
+
+        <!--VIDEO-->
+        <section id="video">
+            <h3>Mini tutorial Capcut </h3>
+
+            <video controls width="800" height="500" poster="recursos/tuto.jpg" preload="metadata">
+                <source src="recursos/video2.mp4" type="video/mp4" />
+                <source src="recursos/video2.webm" type="video/webm" />
+                <track src="recursos/video2.vtt" kind="subtitles" srclang="es" label="Español" default />
+                <p>Tu navegador no soporta el elemento de video.</p>
+                <a href="recursos/video2.mp4">Descargar el archivo de video</a>
+            </video>
+
+        </section>
+
+    </article> 
+
+  <p><a href="#inicio">Volver al inicio de la página</a></p>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <h2>Contacto</h2>
+    <address>
+      Instituto Nacional de Aprendizaje<br>
+      Núcleo Comercio y Servicios<br>
+      Correo: <a href="mailto:giocoto@ejemplo.com">giocoto@ejemplo.com</a>
+    </address>
+    <p>
+      Recurso externo:
+      <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener">
+        Documentación MDN Web Docs
+      </a>
+    </p>
+    <p><small>&copy; 2026 &middot; INA &middot; Todos los derechos reservados</small></p>
+  </footer>
+</div>
+</body>
+</div>
+</html>
