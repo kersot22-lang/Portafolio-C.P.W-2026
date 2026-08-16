@@ -50,22 +50,71 @@ Portafolio-Codificación de Páginas Web/
 
 | Sesión | Tema         | Qué aprendí                                                                                                                                                                             |      Trabajo      |     Captura      |
 | :----: | :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: | :--------------: |
-|  S01   | Git y GitHub | _(En esta clase iniciamos el modulo tres donde trabajamos Git Git Hub y Visual Studio Code, aprendimos los comandos git init, git add, git status, git commit -m , git push, git pull)_ | [ver](unidad-01/) | [ver](recursos/) |
+|  S01   | Git y GitHub | _(En esta clase iniciamos el modulo tres donde trabajamos Git Git Hub y Visual Studio Code, aprendimos los comandos git init, git add, git status, git commit -m , git push, git pull)_ | [ver](Unidad-01-Controlversiones/ControlDeCambios_Unidad%20de%20Aprendizaje%20N1.pdf) | [ver](Recursos/S01-evidencia-estructura-portafolio.png) |
 
 <details>
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
 | Sesión | Tema                           | Qué aprendí                                                                                                                                                                                                                                                                            |                Trabajo                 |                                                                          Captura                                                                          |
 | :----: | :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                                                                                                                                                                                                                                   | [ver](unidad-02/sitio-demo/index.html) |                                                                     [ver](recursos/)                                                                      |
-|  S03   | Estructura del documento HTML5 |                                                                                                                                                                                                                                                                                        |           [ver](Unidad-01-Control-versiones/Index.html)            |                                                                     [ver](recursos/)                                                                      |
-|  S04   | Texto, enlaces y anclas        | Profundizamos en la estructura y organización de documentos HTML mediante la implementación de etiquetas semánticas, mejorando la accesibilidad y el orden lógico del sitio. Asimismo, integramos enlaces de tipo ancla para optimizar la navegación interna dentro de la misma página |           [ver](unidad-02/)            | [ver](recursos/Evidencia-favicon.png/S.4.Enlaces-tipo-anclas1.png/S.4.Enlaces-tipo-anclas.png/S.4.Enlaces-tipo-anclas3.png/S.4.Texto_Semantico_citas.png) |
-|  S05   | Listas y tablas|Aprendi a trabajar los tres tipos de listas con su tipo y estilos. Tambien la parte de tablas semanticas|[ver](unidad-02/)            |                                                                     [ver](Unidad-02-html/unidad-02/sitio-demo/recursos/S05.png)                                                                      |
-|  S06   | Formularios y semántica        | Aprendí a crear formularios y Semántica, el trío obligatorio del formulario label for e input id.                                                                                                                                                                                                                                                                                       |           [ver](Unidad-02-html/unidad-02/sitio-demo/registro.html)            |                                                                     [ver](recursos/Clase-numero-6%202026-07-28%20170359.jpg)                                                                      |
-|  S07   | Multimedia                     |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
-|  S08   | SVG y repaso                   |                                                                                                                                                                                                                                                                                        |           [ver](unidad-02/)            |                                                                     [ver](recursos/)                                                                      |
+|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo | [ver](Recursos/S02-Trabajo%20Colaborativo.png) |[ver](recursos/S02-Proyectoco.png)  |
+|  S03   | Estructura del documento HTML5 |Trabajamos en grupo rn vreacion de páginas en formato html y trabajo en github| [ver](Unidad-01-Control-versiones/Index.html)|[ver](recursos/)|
+|  S04   | Texto, enlaces y anclas| Profundizamos en la estructura y organización de documentos HTML mediante la implementación de etiquetas semánticas, mejorando la accesibilidad y el orden lógico del sitio. Asimismo, integramos enlaces de tipo ancla para optimizar la navegación interna dentro de la misma página |[ver](Unidad-02-html/sitio-demo/articulo.html)| [ver](recursos/Evidencia-favicon.png) |
+|  S05   | Listas y tablas|Aprendi a trabajar los tres tipos de listas con su tipo y estilos. Tambien la parte de tablas semanticas|[ver](Unidad-02-html/sitio-demo/horario.html)|[ver](Recursos/S05-listas-tablas.png)|
+|  S06   | Formularios y semántica| Aprendí a crear formularios y Semántica, el trío obligatorio del formulario label for e input id.|[ver](Unidad-02-html/unidad-02/sitio-demo/registro.html)|[ver](recursos/Clase-numero-6%202026-07-28%20170359.jpg)|
+|  S07   |Multimedia| Aprendí a realizar etiquetas, controles de audio y video, formatos y portadas y subtítulos.        |[ver](Unidad-02-HTML/sitio-demo/galeria.html)|[ver](Recursos/S07-Multimedia.png)|
+|  S08   | SVG y repaso| Aprendí a realizar página de insignia html con estructura y a la vez repasamos conceptos y prácticas dadas.|[ver](Unidad-02-html/sitio-demo/insignia.html)|[ver](Recursos/S08-SVG-html.png)|
 
 </details>
+<!--
+  ─────────────────────────────────────────────────────────────────────
+  DÓNDE PEGAR ESTO
+
+  Dentro del bloque <details> de la Unidad 2 que YA existe,
+  DESPUÉS de la tabla de sesiones que ya está completada
+  y ANTES de la línea que cierra:  </details>
+
+  No borres nada de lo que ya tienes escrito.
+  ─────────────────────────────────────────────────────────────────────
+-->
+
+---
+
+### El sitio personal
+
+Proyecto propio construido de forma autónoma.
+**Tema del sitio:** _Galería de arte y taller interactivo "Echoes of Time_
+
+| Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
+|:-------|:-------------|:------------------:|:---:|:----------:|
+| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](UNIDAD-02-html/sitio%20personal/index.html) | [ver](recursos/) |
+| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](UNIDAD-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
+| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](UNIDAD-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
+| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](UNIDAD-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
+
+**Decisiones que tomé**
+
+| Decisión | Qué elegí | Por qué |
+|:---------|:----------|:--------|
+| Tema del sitio | Galeria de arte e ilustración *Echoes of Time| Permite integrar contenido visua, como archivo multimedias y estructuras con horarios de talleres de forma orgánica. |
+| Atributo de la lista ordenada | `reversed` y `type="1"` | Para mostrar la secuencia cronológica de eventos artísticos desde la edición más reciente hacia la más antigua.|
+| Formatos de imagen usados | `WebP` como primera opción e `JPEG` / `PNG` de respaldo| Porque maximiza la velocidad de carga manteniendo alta fidelidad de color en las acuarelas. |
+| Formas del gráfico SVG | `<rect>`, `<circle>`, `<polygon>`, `<line>` y `<text>` | Esto combinadas crean un isotipo geométrico representativo del taller sin depender de archivos de imagen externos. |
+
+**Cómo se ve**
+
+<p align="center">
+  <img src="recursos/sp-vista-index.png" width="600" alt="Portada del sitio personal">
+</p>
+
+<div align="center" markdown="1">
+
+*Portada del sitio personal al cerrar la Unidad 2.*
+
+</div>
+
+**Comprobado en dos navegadores:**
+[Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
 
 <details>
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
