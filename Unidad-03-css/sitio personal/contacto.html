@@ -37,132 +37,132 @@
     </header>
 
     <!-- Este será el contenido principal -->
-<main id="contenido">
-<article>
-<h2>Contacto y Reservaciones</h2>
-<p>Por favor, complete el siguiente formulario para reservar una mesa, solicitar pedidos de café en grano o cotizar eventos con <strong>Cafetería Aromas</strong>. Los campos marcados con un asterisco (*) son obligatorios.</p>
-</article>
- 
-    <form action="#" method="post">
-<!-- Grupo de campos de información personal -->
-<fieldset>
-<legend>Información Personal</legend>
-<p>
-<label for="nombre">Nombre completo*:</label>
-<input type="text" id="nombre" name="nombre" required minlength="3" maxlength="60" placeholder="Ingrese su nombre completo">
-</p>
- 
-            <p>
-<label for="email">Correo electrónico*:</label>
-<input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
-</p>
- 
-            <p>
-<label for="telefono">Número de teléfono*:</label>
-<input type="tel" id="telefono" name="telefono" required pattern="[0-9]{8}" title="Debe ingresar 8 dígitos, sin guiones ni espacios" placeholder="Ej: 88888888">
-</p>
-</fieldset>
- 
-        <!-- Grupo de campos de información del servicio o pedido -->
-<fieldset>
-<legend>Detalles de la Solicitud</legend>
-<p>
-<label for="fecha">Fecha estimada de visita o evento*:</label>
-<input type="date" id="fecha" name="fecha" required>
-</p>
-<p>
-<label for="personas">Cantidad de personas o bolsas de café*:</label>
-<input type="number" id="personas" name="personas" required min="1" max="50" step="1" value="1">
-<small>Elija una cantidad entre 1 y 50.</small>
-</p>
- 
-            <p>
-<label for="servicio">Tipo de servicio deseado:</label>
-<select id="servicio" name="servicio">
-<option value="">Seleccione una opción</option>
-<option value="reserva">Reserva de mesa</option>
-<option value="grano">Compra de café en grano artesanal</option>
-<option value="catering">Servicio de catering/barista para eventos</option>
-<option value="consulta">Consulta general / Sugerencia</option>
-</select>
-</p>
- 
+        <main id="contenido">
+            <article>
+            <h2>Contacto y Reservaciones</h2>
+            <p>Por favor, complete el siguiente formulario para reservar una mesa, solicitar pedidos de café en grano o cotizar eventos con <strong>Cafetería Aromas</strong>. Los campos marcados con un asterisco (*) son obligatorios.</p>
+            </article>
+            
+                <form action="#" method="post">
+            <!-- Grupo de campos de información personal -->
             <fieldset>
-<legend>Modalidad del pedido</legend>
-<p>
-<input type="radio" id="presencial" name="modalidad" value="presencial" required checked>
-<label for="presencial">Consumo en el local</label>
-</p>
- 
-                <p>
-<input type="radio" id="para_llevar" name="modalidad" value="para_llevar">
-<label for="para_llevar">Para llevar / Retiro en cafetería</label>
-</p>
- 
-                <p>
-<input type="radio" id="domicilio" name="modalidad" value="domicilio">
-<label for="domicilio">Envío a domicilio</label>
-</p>
-</fieldset>
- 
-            <fieldset>
-<legend>Preferencias o necesidades especiales</legend>
-<p>
-<input type="checkbox" id="leche_vegetal" name="preferencias" value="leche_vegetal">
-<label for="leche_vegetal">Opción de leche vegetal (Avena, Almendra, Soya)</label>
-</p>
- 
-                <p>
-<input type="checkbox" id="sin_gluten" name="preferencias" value="sin_gluten">
-<label for="sin_gluten">Opciones de repostería sin gluten</label>
-</p>
- 
-                <p>
-<input type="checkbox" id="terraza" name="preferencias" value="terraza">
-<label for="terraza">Ubicación preferente en zona de terraza</label>
-</p>
-</fieldset>
- 
+            <legend>Información Personal</legend>
             <p>
-<label for="mensaje">Detalles o especificaciones del pedido:</label>
-<textarea id="mensaje" name="mensaje" rows="4" cols="50" maxlength="300" placeholder="Escriba alergias, tipo de molido para su café o especificaciones del evento..."></textarea>
-<br>
-<small>Máximo 300 caracteres.</small>
-</p>
-</fieldset>
- 
-        <!-- Confirmación y envío -->
-<fieldset>
-<legend>Confirmación</legend>
-<p>
-<input type="checkbox" id="acepto" name="acepto" required>
-<label for="acepto">Acepto los términos del servicio y el envío de notificaciones sobre mi solicitud.</label>
-</p>
-</fieldset>
- 
-        <p>
-<button type="submit">Enviar solicitud</button>
-<button type="reset">Restablecer formulario</button>
-</p>
-</form>
- 
-    <aside>
-<h3>Información de Cafetería Aromas</h3>
-<p>Horario de atención: Lunes a Sábado de 7:00 a.m. a 7:00 p.m.</p>
-<p>Para consultar nuestras especialidades y ranking de bebidas, visite nuestra página de <a href="index.html#especialidades">Especialidades de la casa</a>.</p>
-</aside>
- 
-    <p><a href="#contenido">Volver al inicio de la página</a></p>
- 
-</main>
-  <!--PIE DE PAGINA-->
-    <footer id="footer">
-        <p> &copy; 2026 Cafetería Aromas.Todos los derechos reservados.</p>
-        <address>
-            <p>Correo electrónico: info@cafeteriaaromas.com</p>
-            <p>Teléfono: +1 (555) 123-4567</p>
-        </address>
-
+            <label for="nombre">Nombre completo*:</label>
+            <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="60" placeholder="Ingrese su nombre completo">
+            </p>
+            
+                        <p>
+            <label for="email">Correo electrónico*:</label>
+            <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+            </p>
+            
+                        <p>
+            <label for="telefono">Número de teléfono*:</label>
+            <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{8}" title="Debe ingresar 8 dígitos, sin guiones ni espacios" placeholder="Ej: 88888888">
+            </p>
+            </fieldset>
+            
+                    <!-- Grupo de campos de información del servicio o pedido -->
+            <fieldset>
+            <legend>Detalles de la Solicitud</legend>
+            <p>
+            <label for="fecha">Fecha estimada de visita o evento*:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            </p>
+            <p>
+            <label for="personas">Cantidad de personas o bolsas de café*:</label>
+            <input type="number" id="personas" name="personas" required min="1" max="50" step="1" value="1">
+            <small>Elija una cantidad entre 1 y 50.</small>
+            </p>
+            
+                        <p>
+            <label for="servicio">Tipo de servicio deseado:</label>
+            <select id="servicio" name="servicio">
+            <option value="">Seleccione una opción</option>
+            <option value="reserva">Reserva de mesa</option>
+            <option value="grano">Compra de café en grano artesanal</option>
+            <option value="catering">Servicio de catering/barista para eventos</option>
+            <option value="consulta">Consulta general / Sugerencia</option>
+            </select>
+            </p>
+            
+                        <fieldset>
+            <legend>Modalidad del pedido</legend>
+            <p>
+            <input type="radio" id="presencial" name="modalidad" value="presencial" required checked>
+            <label for="presencial">Consumo en el local</label>
+            </p>
+            
+                            <p>
+            <input type="radio" id="para_llevar" name="modalidad" value="para_llevar">
+            <label for="para_llevar">Para llevar / Retiro en cafetería</label>
+            </p>
+            
+                            <p>
+            <input type="radio" id="domicilio" name="modalidad" value="domicilio">
+            <label for="domicilio">Envío a domicilio</label>
+            </p>
+            </fieldset>
+            
+                        <fieldset>
+            <legend>Preferencias o necesidades especiales</legend>
+            <p>
+            <input type="checkbox" id="leche_vegetal" name="preferencias" value="leche_vegetal">
+            <label for="leche_vegetal">Opción de leche vegetal (Avena, Almendra, Soya)</label>
+            </p>
+            
+                            <p>
+            <input type="checkbox" id="sin_gluten" name="preferencias" value="sin_gluten">
+            <label for="sin_gluten">Opciones de repostería sin gluten</label>
+            </p>
+            
+                            <p>
+            <input type="checkbox" id="terraza" name="preferencias" value="terraza">
+            <label for="terraza">Ubicación preferente en zona de terraza</label>
+            </p>
+            </fieldset>
+            
+                        <p>
+            <label for="mensaje">Detalles o especificaciones del pedido:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" maxlength="300" placeholder="Escriba alergias, tipo de molido para su café o especificaciones del evento..."></textarea>
+            <br>
+            <small>Máximo 300 caracteres.</small>
+            </p>
+            </fieldset>
+            
+                    <!-- Confirmación y envío -->
+            <fieldset>
+            <legend>Confirmación</legend>
+            <p>
+            <input type="checkbox" id="acepto" name="acepto" required>
+            <label for="acepto">Acepto los términos del servicio y el envío de notificaciones sobre mi solicitud.</label>
+            </p>
+            </fieldset>
+            
+                    <p>
+            <button type="submit">Enviar solicitud</button>
+            <button type="reset">Restablecer formulario</button>
+            </p>
+            </form>
+            
+                <aside>
+            <h3>Información de Cafetería Aromas</h3>
+            <p>Horario de atención: Lunes a Sábado de 7:00 a.m. a 7:00 p.m.</p>
+            <p>Para consultar nuestras especialidades y ranking de bebidas, visite nuestra página de <a href="index.html#especialidades">Especialidades de la casa</a>.</p>
+            </aside>
+            
+                <p><a href="#contenido">Volver al inicio de la página</a></p>
+            
+            </main>
+            <!--PIE DE PAGINA-->
+                <footer id="footer">
+                    <p> &copy; 2026 Cafetería Aromas.Todos los derechos reservados.</p>
+                    <address>
+                        <p>Correo electrónico: info@cafeteriaaromas.com</p>
+                        <p>Teléfono: +1 (555) 123-4567</p>
+                    </address>
+        <p><small>@KerenSoto</small></p>
 
     </footer>
 </body>
