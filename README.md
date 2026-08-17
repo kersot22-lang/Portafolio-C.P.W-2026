@@ -2,7 +2,7 @@
 
 # 📘 Portafolio de Evidencias
 
-### Nombre Completo de la Persona Estudiante
+### Keren Soto Barrientos
 
 **CSTI12002 · Codificación de páginas web** · Instituto Nacional de Aprendizaje
 Facilitador: Giovanni Antonio Coto Calderón · Edición 2 · 2026
@@ -65,18 +65,15 @@ Portafolio-Codificación de Páginas Web/
 |  S07   |Multimedia| Aprendí a realizar etiquetas, controles de audio y video, formatos y portadas y subtítulos.        |[ver](Unidad-02-HTML/sitio-demo/galeria.html)|[ver](Recursos/S07-Multimedia.png)|
 |  S08   | SVG y repaso| Aprendí a realizar página de insignia html con estructura y a la vez repasamos conceptos y prácticas dadas.|[ver](Unidad-02-html/sitio-demo/insignia.html)|[ver](Recursos/S08-SVG-html.png)|
 
-</details>
 <!--
   ─────────────────────────────────────────────────────────────────────
   DÓNDE PEGAR ESTO
-
   Dentro del bloque <details> de la Unidad 2 que YA existe,
   DESPUÉS de la tabla de sesiones que ya está completada
   y ANTES de la línea que cierra:  </details>
-
   No borres nada de lo que ya tienes escrito.
   ─────────────────────────────────────────────────────────────────────
--->
+  -->
 
 ---
 
@@ -117,6 +114,8 @@ Proyecto propio construido de forma autónoma.
 [Chrome](Unidad-02-html/sitio%20personal/recursos/sp-navegador-chromee.png) · [Firefox](Unidad-02-html/sitio%20personal/recursos/sp-navegador-firefox.png)
 
 <details>
+
+<details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
 | Sesión | Tema                       | Qué aprendí |      Trabajo      |     Captura      |
@@ -134,7 +133,7 @@ Proyecto propio construido de forma autónoma.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 4 · Páginas web responsivas</b> (sesiones 23 a 28)</summary>
 
 | Sesión | Tema                            | Qué aprendí |      Trabajo      |     Captura      |
@@ -146,9 +145,11 @@ Proyecto propio construido de forma autónoma.
 |  S27   | Patrones de diseño adaptativo I |             | [ver](unidad-04/) | [ver](recursos/) |
 |  S28   | Patrones II y repaso            |             | [ver](unidad-04/) | [ver](recursos/) |
 
-</details>
+</>
 
 <details>
+
+<details markdown="1">
 <summary><b>Unidad 5 · Frameworks y librerías</b> (sesiones 31 a 36)</summary>
 
 | Sesión | Tema                          | Qué aprendí |      Trabajo      |     Captura      |
@@ -173,7 +174,7 @@ imágenes representativas de todo el módulo.)_
   <img src="recursos/ejemplo-escritorio.png" width="600" alt="Sitio personal en vista de escritorio">
 </p>
 
-<div align="center" markdown="1"><i>El sitio personal al cierre de la Unidad 3.</i></div>
+<div align="center" markdown="1"> <i>El sitio personal al cierre de la Unidad 3.</i></div>
 
 ### El mismo sitio en dos anchos
 
