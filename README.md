@@ -80,7 +80,7 @@ Portafolio-Codificación de Páginas Web/
 ### El sitio personal
 
 Proyecto propio construido de forma autónoma.
-**Tema del sitio:** _Galería de arte y taller interactivo "Echoes of Time_
+**Tema del sitio:** _Cafetería Aromas_
 
 | Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
 |:-------|:-------------|:------------------:|:---:|:----------:|
