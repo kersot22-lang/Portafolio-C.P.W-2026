@@ -87,24 +87,24 @@ Proyecto propio construido de forma autónoma.
 
 | Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
 |:-------|:-------------|:------------------:|:---:|:----------:|
-| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](UNIDAD-02-html/sitio%20personal/index.html) | [ver](recursos/) |
-| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](UNIDAD-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
-| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](UNIDAD-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
-| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](UNIDAD-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
+| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](UNIDAD-02-html/sitio%20personal/index.html) | [ver](Recursos/SP-Validación-Index.png) |
+| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](UNIDAD-02-html/sitio-personal/listas.html) | [ver](Recursos/SP-Validación-Listas.png) |
+| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](UNIDAD-02-html/sitio-personal/contacto.html) | [ver](Recursos/SP-Validación-Contacto.png) |
+| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](UNIDAD-02-html/sitio-personal/galeria.html) | [ver](Recursos/SP-Vaalidación-Galería.png) |
 
 **Decisiones que tomé**
 
 | Decisión | Qué elegí | Por qué |
 |:---------|:----------|:--------|
-| Tema del sitio | Galeria de arte e ilustración *Echoes of Time| Permite integrar contenido visua, como archivo multimedias y estructuras con horarios de talleres de forma orgánica. |
+| Tema del sitio | Cafeteria Aromas| Permite integrar contenido visual, como archivo multimedias y estructuras con horarios sobre información de la cafetería. |
 | Atributo de la lista ordenada | `reversed` y `type="1"` | Para mostrar la secuencia cronológica de eventos artísticos desde la edición más reciente hacia la más antigua.|
 | Formatos de imagen usados | `WebP` como primera opción e `JPEG` / `PNG` de respaldo| Porque maximiza la velocidad de carga manteniendo alta fidelidad de color en las acuarelas. |
-| Formas del gráfico SVG | `<rect>`, `<circle>`, `<polygon>`, `<line>` y `<text>` | Esto combinadas crean un isotipo geométrico representativo del taller sin depender de archivos de imagen externos. |
+| Formas del gráfico SVG | `<rect>`, `<circle>` y `<text>` | Esto combinadas crean un isotipo geométrico representativo del taller sin depender de archivos de imagen externos. |
 
 **Cómo se ve**
 
 <p align="center">
-  <img src="recursos/sp-vista-index.png" width="600" alt="Portada del sitio personal">
+  <img src="Unidad-02-html/sitio personal/recursos/sp-vista-galeria.png" width="600" alt="Portada del sitio personal">
 </p>
 
 <div align="center" markdown="1">
@@ -114,20 +114,20 @@ Proyecto propio construido de forma autónoma.
 </div>
 
 **Comprobado en dos navegadores:**
-[Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
+[Chrome](Unidad-02-html/sitio%20personal/recursos/sp-navegador-chromee.png) · [Firefox](Unidad-02-html/sitio%20personal/recursos/sp-navegador-firefox.png)
 
 <details>
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
 | Sesión | Tema                       | Qué aprendí |      Trabajo      |     Captura      |
 | :----: | :------------------------- | :---------- | :---------------: | :--------------: |
-|  S11   | Introducción a CSS         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S12   | Selectores y pseudo-clases |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S13   | Tipografía y color         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S14   | Modelo de cajas            |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S15   | Display y posicionamiento  |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S16   | Flexbox                    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S17   | CSS Grid                   |             | [ver](unidad-03/) | [ver](recursos/) |
+|  S11   | Introducción a CSS         | Introducción a CSS, sintaxis y validación.| [ver](unidad-03/) | [ver](recursos/) |
+|  S12   | Selectores y pseudo-clases | A integrar los selectores,pseudo-clases, elementos y introducción ala tipografia.| [ver](unidad-03/) | [ver](recursos/) |
+|  S13   | Tipografía y color         |Aprendimos a integrar tipografia avanzada,color y fondos.| [ver](unidad-03/) | [ver](recursos/) |
+|  S14   | Modelo de cajas            |Trabajamos margin,box-sizing| [ver](unidad-03/) | [ver](recursos/) |
+|  S15   | Display y posicionamiento  |Trabajamos integración de display y position(static-relative-stickky-absolute,fixed.)| [ver](unidad-03/) | [ver](recursos/) |
+|  S16   | Flexbox                    |Trabajamos propiedades de flexbox para posicionar cajas y elementos| [ver](unidad-03/) | [ver](recursos/) |
+|  S17   | CSS Grid                   |Trabajamos en la integración de grid template| [ver](unidad-03/) | [ver](recursos/) |
 |  S18   | Componentes estilizados    |             | [ver](unidad-03/) | [ver](recursos/) |
 |  S19   | Animaciones y filtros      |             | [ver](unidad-03/) | [ver](recursos/) |
 |  S20   | SCSS y repaso              |             | [ver](unidad-03/) | [ver](recursos/) |
