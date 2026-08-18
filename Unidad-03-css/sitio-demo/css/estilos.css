@@ -97,6 +97,11 @@ header nav a {
     font-size: 0.9rem;
     text-decoration: none;
     padding: 10px 15px;
+    nav a{
+    color: #ffff;
+    margin-right: 15px;
+    transition: color 0.3s; /*cambio suave */
+
 }
 header nav{
     align-self: center;/*anula aling-items para elementos especificos*/
@@ -496,8 +501,15 @@ form textarea:focus {
  
 /*Tarjeta interactiva*/
 .tarjeta figure:hover{
-    transform: translateY(-5px);/*valor negativo va hacia arriba*/
+    transform: translateY(-10px);/*valor negativo va hacia arriba*/
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
+    transform: scale(1.1, 0.9);/*X y Y por separado*/
+    transform: translateY(-5px);/*Desplazar .negativo= Hacia arriba*/
+    transform: rotate(5deg);/*girar. grados*/
+    transform: skew(10deg);/*inclinar . grados*/
+    transform: translateY(-5px);scale:(1.03);
+
  
 }
  
