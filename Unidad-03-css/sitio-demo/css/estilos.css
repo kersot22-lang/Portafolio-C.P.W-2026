@@ -1,35 +1,28 @@
 /*css/estilos.css*/
-/* Reset básico*/
-/*El 100% del tamaño que el usuario configuro
-por omisiòn son 16px, */
+/* Reset basico a todo*/
+/*100% del tamaño que el usuario configuro. Por imision son 16px, */
 html{
     font-size: 100%;
 }
 
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}/*Esta regla elimina los margenes y el relleno predeterminados de todos los elementos y establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del elemento*/
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*esta regla elimina los margenes y el relleno predeterminado de todos los elementos y establece el modelo de caja para incluir el relleno y el borde en el ancho y el alto del elemento*/
 
-.contenedor{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 25px;
-}/*Aplica a la parte vertical y horizontal el auto: reparte el espacio sobrante por el igual a ambos lado,lo centra en un elemento con ancho limitado de max-width: 1000px*/
+
 
 body {
     font-size: 1rem;
     line-height: 1.6;
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
     background-color: #fcfcfc;
     padding-top: 180px;
-} /*esta regla define la fuente y el color del texto en el cuerpo del documento*/
+}/*esta regla define la fuente y el color de texto del documento*/
 
-
-h1{
-    color:#aad6fe;
+h1  {
+    color: #f2f3f5;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
@@ -39,13 +32,10 @@ h2{
     font-size: 2rem;
     font-weight: 700;
 }
+
 h3{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
-}
-h2, h3{
-    color: #1f4e79;
-    margin-bottom: 12px;
 }
 
 p{
@@ -53,168 +43,227 @@ p{
     font-weight: 400;
     margin-bottom: 16px;
 }
-header{
-    background-color: #1f4e79;
-    color: white;
-    padding: 24px;
-    border-radius: 8px;
+
+h2, h3{
+    color: #1F4E79;
+    margin-bottom: 12px;
 }
+
+header{
+    background-color: #1F4E79;
+    color: white;
+
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    /*0 aplica a la parte vertical y horizontal el auto: reparte el espacio sobrante por igaul a ambos lados lo centra en un elemnento con ancho limitado*/
+}
+
+
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
     background-color: #dce6f1;
     padding: 20px;
     margin-top: 32px;
 }
-/*.portada-texto{
-    background-color: rgba(16, 13, 34, 0.35);
+
+.portada-texto{
+    background-color:rgba(221, 38, 38, 0.5);
     padding: 24px;
-    border-radius: 8px;
-}*/
+    border-radius: 10px;
+}
 
 main p{
     max-width: 70ch;
-}/*ch es el ancho del caracter cero de la fuente en uso, el valor de 70 marca el rango de lectura cómoda por linea o renglón. más larga, la vista se pierde al cambio de linea*/
-
+    /*ch es el ancho del caracter cero de la fuente en uso. el valor 70 marca el rango de lectura comoda por linea o reglon. mas larga, la vista se pierde al cambio de linea*/
+}
+/*transformacion y espacio*/
 main a{
     text-decoration: none;
-    border-bottom: 1px solid #1f4e79;
+    border-bottom: 1px solid #1F4E79;
 }
 
-blockquote{
+blockquote p{
     font-style: italic;
     color: #555;
-    border-left: 4px solid#1f4e79;
+    border-left: 4px solid #1f4e79;
 }
 
-/*Transformación y espacio*/
-header nav ul{
-    list-style-type: none;
-}/*Quita las viñetas y el subrayado*/
 
-nav li{
-    display: inline-block;
-    margin-right: 15px;
-}/*Coloca las opciones de menú en línea, uno al lado del otro*/
-    /*visibility: hidden; oculta la linea de menu, pero sigue existiendo
-    display: none; oculta la linea de menú y libera el espacio*/
 
-header nav a {
+header nav a{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.9rem;
     text-decoration: none;
+    /*display: inline-block;/*Pone en linea elementos*/
     padding: 10px 15px;
+
+}
+header nav ul{
+    margin-top: 10px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;/*Dirrecion a la que flex ve row fila, column en columna y esta predeterminado el row*/
+    gap: 50px;/*Separacion entre elementos */
+    justify-content: center;/*Center, space-between: los elementos a los lados, space-around:Espacio alrededor de cada uno, space-evenly:Coloca todos los espacios iguales, flex-start, flex-end*/
 }
 
-/*Aplicar estilos a clases*/
+head nav{
+    align-self: center;/*anula a align-items para el elemento especifico admite los mismos elementos que align*/
+}
+
+
+/*header nav li{
+    margin-right: 15px;
+}
+    /*visibility: hidden; Oculta pero se puede interactuar con el*/
+
+
+/*main nav{
+    display: none;
+} Esta propiedad desaparece el elemento*/
+
+header nav li{
+    display: inline-block;
+}
+/*Colocca las opciones de menu en linea, uno al lado de otro*/
+
+
 .destacado{
     background-color: #fff3cd;
-    padding: 10px 20px; /*aplica como las manesillas del reloj: arriba-derecha-abajo-izquierda*/
-
+    padding: 10px 20px;
 }
 
-/*Aplicar estilos a identificadores  o IDs*/
+
+/*Trabajando con id*/
+
 #inicio {
-    position: fixed; /*fija con respecto a la ventana. cabecera queda fija arriba*/
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-image: url(../Recursos/fondo1.jpg);
-    background-size: cover;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;/*baseline alinea por la linea base del texto*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;/*fija con respecto a la ventana, cabecera queda arriba*/
+    background-image: url(../Recursos/Fondo1.webp);
+    padding: 12px 20px;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 30px;
-    z-index: 100; /*cuanto mayor es numero m´al frente va a  estar*/
+    background-size: cover;
+    z-index: 100;/*Cuanto mas mayor es el numero mas al frente va a estar*/
 }
-/*#inicio {
-    position: sticky; /*Fluye normal y se pega al llegar arriba o límite del su contenedor
-    top: 0;
+
+/*#inicio{
+    position: sticky;
+    top: 0px;
+    Fluye normal y se pega al llegar arriba o limite del contenedor
 }*/
 
+/*estilos a solo enlaces dentro del nav*/
 
-/*Aplicar estilos a identificadores  o IDs*/
-nav a{
-    color: #ffff;
+nav a {
+    color: #fff;
     margin-right: 15px;
-    transition: color 0.3s; /*cambio suave */
+    transition: color 0.3s;/*Cambio suave*/
 }
-
-/*Pseudo-clase :hover*/
+/*pseudo clase :hover*/
 nav a:hover {
-    color: #f8cbad; /*al pasar el cursor*/
+    color: #f8cbad; /* al pasar el cursor*/
 }
-
-/*Pseudo-clase :nth-child: filas cebra en la tabla*/
+/* pseudo clasen _nth-child: filas cebra en la tabla*/
 tbody tr :nth-child(even){
-    background-color: #d7c5c5;
-
+    background-color: #9ac498;
 }
-
 tbody tr:hover{
-    background-color: #c55a11;
+    background-color: #e3eef9;
 }
 
 
-/*Pseudo-elemento ::firts-letter y ::selection*/
-article p::first-letter{
+/*pseudo elemento ::first-letter y ::selection*/
+article p::first-letter {
     font-size: 32px;
     font-weight: bold;
     color: #c55a11;
-}
 
-::selection{
-    background-color: #1f4e79;
-    color: white;
 }
-
-/*Agregar familia de fuentes traida de google fonts*/
-body{
-    font-family: "Poppins",Arial, Helvetica, sans-serif;
+::selection {
+    background-color:#1F4E79;
+    color:white;
+}
+/*Agregar familia de fuentes de google fonts*/
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     line-height: 1.6;
-}
+} 
+
 aside{
     padding: 20px;
     border: 2px solid #c55a11;
     border-radius: 8px;
-    
-}/*En este caso el padding aplica a los 4 lados a la vez,padding: 10px 20px aplica vertical y horizontal
-padding: 10px 20px 15px 5px aplica a los 4 lados valores distintos,en sentido de las manillas del reloj*/
 
-/*Aplicar lado por lado
-padding-top 10px aplica arriba
+}
+/*En este caso el padding aplica a los cuatro lados a la vez padding: 10px 20px aplica vertical y horizontal
+padding: 10px 20px 15px 5px aplica a los 4 lados valores distintos En el sentido de las manillas del reloj*/
+
+/*Aplicar lado po lado
+padding-top 10 aplica arriba
 padding-right 10px aplica derecha
 padding-bottom 10px aplica abajo
 padding-left 10px aplica izquierda*/
 
-/*Aplicamos ala tabla horario.html*/
-th, td {
+/*Aplicamos a la tabla horario.html*/
+
+th, td{
     padding: 10px;
     border: 1px solid #dddddd;
     text-align: left;
-
 }
 
 thead th{
-    background-color: #1f4e79;
+    background-color: #1F4E79;
     color: white;
-}/*Trabaja las 4 celdas del encabezados de la tabla */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*Trabaja encabezados de la tabla*/
+}
+
+figure{
+    background: rgb(255, 255, 255);
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(175, 0, 0, 0.1);
+}
 
 tfoot td{
     padding: 12px;
     font-style: italic;
     background-color: #f5f7fa;
-    border-top: 2px solid #1F4E79;
+    border-top: 2px solid #1f4e79;
 }
+
 fieldset{
     padding: 16px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #ddd;
     border-radius: 8px;
-
-    
-    
 }
-
-
+legend{
+    padding: 0 8px;
+    font-weight: 700;
+    color: #1f4e79;
+    border-radius: 8px;
+}
 
 section{
     margin-bottom: 32px;
@@ -226,11 +275,11 @@ main ul, main ol{
     margin-bottom: 16px;
 }
 
-main li{
+main li {
     margin-bottom: 6px;
 }
 
-/*La lista descriptiva*/
+/*Lista descriptiva*/
 #glosario dt{
     font-weight: 700;
     margin-top: 12px;
@@ -238,10 +287,12 @@ main li{
 
 #glosario dd{
     margin-left: 20px;
-    margin-bottom: 8px;
-}/*La sangria del <dd> es lo que hace visible la relación entre el termino y su descripción*/
+    margin-top: 8px;
+}
+/*La sangria de dd es lo que hace visible l arelacion entre el termino y su descripcion*/
 
 /*La tabla de calendario*/
+
 table{
     border-collapse: collapse;
     width: 100%;
@@ -255,65 +306,239 @@ caption{
     text-align: left;
     color: #6b7280;
 }
-/* El <caption> "Horario del módulo CSTI12002, primera semana" */
 
-th, td {
-  padding: 10px;
-  border: 1px solid #DDDDDD;
-  text-align: left;
+/*Los cinco valores de position
+static: valor por omision
+relative: se desplaza de su propia posicion, conserva su propia posicion y los elementos vecinos no se mueven
+absolute: se ubica respecto al ancestro mas cercano
+fixed: se ubica con respecto a la ventana, no se mueve al desplazarce
+sticky: fluye normal hasta llegar a umbral, y entonces se pega*/
+
+/*Patron para este caso*/
+.figura-destacada{
+    position: relative;/*posiona como padre y este no se va a mover. es referencia de hijo absoluto*/
 }
 
-thead th {
-  background-color: #1F4E79;
-  color: white;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-/* ← Las cuatro celdas de encabezado: Semana · Día · Modalidad · Contenido */
-
-/*Las fuguras de galeria.html*/
-figure {
-    border: 1px solid #dddddd;
-    border-radius: 6px;
-    padding: 12px;
-}
-
-/*Los 5 valores de position
-static:valor por omision
-relative:se desplaza de su propia posición
-conserva su propia posición y los elementos vecinos no se mueven.
-absolute:Se ubica respecto al ancestro más cercano
-fixed: Se ubica respecto a la ventana no se mueve al desplazarse.
-sticky: Fluye normal asta llegar a un umbral,ej-(stroll arriba) y entonces se pega.*/
-
-.figura-destacada {
-    position: relative;/*posiona como padre y este no se mueve. Es referencia de hijos absolutos*/
-}
-
-.etiqueta {
+.etiqueta{
     position: absolute;
     top: 20px;
     right: 20px;
     background-color: #c55a11;
     color: white;
-    border-radius: 4px;
+    border-radius: 40px;
     font-size: 0.875rem;
     z-index: 10;
 }
-form label {
+/*z-index SOLO FUNCIONA en elemento con un position declarado si el es static no funciona.
+escala de valores de z-index
+10 para elementos pocionados dentro del contenido
+100 la cabecera fija
+1000 ventanas emergentes y capas superpuestas
+9999 no hace falta usarlo nunca porque no deja margen a otro valor por encima*/
+
+.centrado{
+    display: flex;
+    justify-content: center;/*Horizontal*/
+    align-items: center;/*Vertical*/
+}
+
+.fila-tarjetas{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    /*
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex-grow: 1;/*Cuando crece si sobra espacio se lo da .0 no crece*/
+    /*flex-shrink: 1;/*Cuanto encojo si sobra espacio de la da*/
+    /*flex-basis: 0;/*Como estaba al principio*/
+    flex-wrap: wrap;/*Salta hacia abajo el reversed salta arriba y nowrap sin salto, el elemento cuando ya no tiene espacio*/
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/*.tarjeta {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+}*/
+
+.galeria-grid{
+    display: grid;/*Activa grid al igual que flexbox, se declara contenedor*/
+    /*grid-template-columns: 1fr 1fr 1fr ;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: 1fr 2fr;*/
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+}
+
+/*.galeria-grid figure:first-of-type{
+    grid-column: 1/3;/*desde la linea 1 a la linea 3: abarca las columnas 1 2 el segundo numero es la linea donde termina, no la ultima colum que ocupa
+}*/
+
+/*Forma abreviada con span*/
+
+.galeria-grid figure:first-of-type{
+    grid-column: span 2;/*ocupa dos columnas desde donde le toque. mas legible y no depende de una posicion*/
+}
+
+/*Con filas*/
+
+.destacado{
+    grid-row: span 2;/*abarca dos filas*/
+}
+
+#contenido {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+
+    grid-template-areas: 'indice principal' 'indice lateral';
+    /*css dibuja la estructura, cada cadena de texto es una fila.
+    cad palabra dentro es una celda
+    repetir el nombre hace que una zona abarque varias celdas
+    aqui el indice acupa 2 filas de la primera columna*/
+    /*Asignar cada elemento a su area */
+    /*#contenido > nav {grid-area: indice;}
+    #contenido > nav {grid-area: principal;}
+    #contenido > nav {grid-area: lateral;}
+    grid-template-areas: 'indice principal';*/
+
+}
+
+/*Que las imagenes no se desformen*/
+.galeria-grid img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;/*Recorta por el centro en vez de deformar*/
+    border-radius: 6px;
+}
+
+/*.fila-tarjetas2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}*/
+
+.tarjeta2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+form label{/*Display block pone la etiqueta sobre el campo, funciona mejor en pantallas angostas*/
     display: block;
     margin-bottom: 5px;
     font-weight: 600;
 }
 
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="password"],
+form input[type="number"],
+form input[type="data"],
+form select,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-family: inherit;/*Los campos del formulario NO heredan la fuente del body por la omision sin esta linea apareceria con la fuente del sistema*/
+}
 
+/*Casillas por separado*/
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
 
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    display: inline;
+    font-weight: 400;
+}/*El selector + alcanza la etiqueta y el display:inline los coloca uno al lado del otro*/
 
-/*z-index SOLO FUNCIONA en elementos con positions declarado
-si el es static no funciona.
-escala de valores de z-index
-10 para eleentos posicionados dentro del contenido.
-100 la cabecera fija.
-1000 ventanas emergenetes y capas superpuestas
-9999 no hace falta usarlo casi nunca porque no deja margen a otro valor por encima*/
+form input:focus,
+form select:focus,
+form textarea:focus{
+    outline: none;
+    border-color: #1f4e79;
+    box-shadow: 0 0 5px 3px rgba(35, 78, 121, 0.15);
+    /*El halo azul alrededor del campo activo
+    El focus NO es solo decoracion es una guia para el usuario*/
+}
+
+/*Los estados de validacion*/
+form input:invalid:not(:placeholder-shown){
+    border-color: #c0392b;
+}
+form input:valid:not(:placeholder-shown){
+    border-color: #2e7d32;
+}
+/*apoya la validacion HTML en los required, type, pattern, minlength, etc, colocando un halo de color segun si el dato es correcto o no*/
+
+/*Para los mensajes ayuda*/
+form small{
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: #6b7280;
+}/*Los small que acompañan a los campos con los textos "minimo 8 caracteres, entre 1 y 8 sesiones, etc"*/
+
+.boton-secundario ,.boton{
+    background-color: #c55a11;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;/*Pone la manita*/
+}
+
+/*Los tres estados*/
+/*Hover 1*/
+.boton:hover{
+    background-color: #a8490e;
+}
+/*Active 2
+mientras se pulsa*/
+.boton:active{
+    background-color: #8a3b0b;
+}
+/*Focus 3*/
+.boton:focus{
+    outline: 2px solid #f5c518;
+    outline-offset: 2px;
+}
+
+/*variante secundaria*/
+.boton-secundario{
+    background-color: #6b7280;
+}
+.boton-secundario:hover{
+    background-color: #4b5563;
+}
+
+.tarjeta {
+    background: #b8b7b7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 3px rgba(174, 174, 174, 0.8);
+    /*0 es X, el 4px es Y 12px:blur o difuminado*/
+}
+
+.tarjeta figure:hover{
+    transform: translateY(-5px);/*Valor positivo va hacia arriba*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    /*transition: all 1s ease;*//*Adicional*/
+}
