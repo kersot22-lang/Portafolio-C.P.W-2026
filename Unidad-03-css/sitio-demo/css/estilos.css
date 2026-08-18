@@ -97,6 +97,10 @@ header nav a {
     font-size: 0.9rem;
     text-decoration: none;
     padding: 10px 15px;
+    color: #ffff;
+    margin-right: 15px;
+    transition: color 0.3s; /*cambio suave */
+
 }
 header nav{
     align-self: center;/*anula aling-items para elementos especificos*/
@@ -289,6 +293,8 @@ sticky: Fluye normal asta llegar a un umbral,ej-(stroll arriba) y entonces se pe
 .figura-destacada{
     position:relative;/*posiciona como padre y este no se mueve. Es referencia de hijos absolutos*/
 }
+.figura-destacada:hover .etiqueta
+    
  
 .etiqueta {
     position: absolute;
@@ -496,8 +502,18 @@ form textarea:focus {
  
 /*Tarjeta interactiva*/
 .tarjeta figure:hover{
-    transform: translateY(-5px);/*valor negativo va hacia arriba*/
+    transform: translateY(-10px);/*valor negativo va hacia arriba*/
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
- 
+    transform: scale(1.03);
+    transform: scale(1.1, 0.9);/*X y Y por separado*/
+    transform: translateY(-5px);/*Desplazar .negativo= Hacia arriba*/
+    transform: rotate(5deg);/*girar. grados*/
+    transform: skew(10deg);/*inclinar . grados*/
+    transform: translateY(-5px);scale:(1.03);
+
 }
- 
+/*Aplicación de filtros*/
+
+
+
+
