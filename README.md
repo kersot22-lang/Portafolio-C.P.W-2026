@@ -126,7 +126,7 @@ Proyecto propio construido de forma autónoma.
 |  S16   | Flexbox                    |Trabajamos propiedades de flexbox para posicionar cajas y elementos| [ver](unidad-03/) | [ver](recursos/) |
 |  S17   | CSS Grid                   |Trabajamos en la integración de grid template| [ver](unidad-03/) | [ver](recursos/) |
 |  S18   | Componentes estilizados    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S19   | Animaciones y filtros      |             | [ver](unidad-03/) | [ver](recursos/) |
+|  S19   | Animaciones y filtros      | Trabajamos transiciones, animaciones y filtros.            | [ver](unidad-03/) | [ver](recursos/) |
 |  S20   | SCSS y repaso              |             | [ver](unidad-03/) | [ver](recursos/) |
 
 </details>
