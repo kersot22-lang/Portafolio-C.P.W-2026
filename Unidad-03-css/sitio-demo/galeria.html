@@ -32,63 +32,119 @@
     </nav>
   </header>
 
-  <main id="contenido">
-
+  <main id="Contenido">
+ 
     <article>
         <h2>Galería</h2>
-
-        <!--Imagen y sus atributos-->
-        <img src="recursos/S.7_Lab01.jpg" alt="Imagen de la galería de un laboratorio de informática" width="600" height="400" />
-
-        <!--FIGURE: AGRUPA UN CONTENIDO CON UN PIE-->
-        <figure>
-            <img src="recursos/S.7_Lab02.jpg" alt="Imagen de la galería de un laboratorio de informática" width="800" height="500" />
-            <figcaption>Imagen de un laboratorio de informática</figcaption>
-        </figure>
-
-        <!-- VARIOS FORMATOS: el navegador elige el uno -->
+ 
+        <div class="tarjeta galeria-grid">
+          <!-- Imagen y sus atributos -->
+          <figure>
+            <img
+            src="recursos/S.7_Lab01.jpg"
+            alt="Imagen de la galería de un laboratorio de informatica"
+            width="100%"
+            height="300"/>
+          </figure>
+ 
+          <!-- FIGURE: Agrupa un contenido con un pie -->
+          <figure>
+              <img
+              src="recursos/S.7_Lab02.jpg"
+              alt="Imagen de la galería de un laboratorio de informatica"
+              width="100%"
+              height="300"/>
+            <figcaption>
+              Imagen de la galería de un laboratorio de informatica
+            </figcaption>
+          </figure>
+       
+ 
+        <!-- Varios formatos: el navegador elige uno -->
+ 
         <figure class="figura-destacada">
-            <picture>
-                <source srcset="recursos/S.7_Lab01.webp" type="image/webp" />
-                <source srcset="recursos/S.7_Lab02.jpg" type="image/jpeg" />
-                <img src="recursos/S.7_Lab01.jpg" alt="Imagen de la galería de un laboratorio de informática" width="800" height="500" />
-            </picture>
-            <span class="etiqueta">Destacada</span>
-            <figcaption>Imagen de un laboratorio de informática</figcaption>
+          <picture>
+            <source srcset="recursos/S.7_Lab01.webp" type="image/webp" />
+            <source srcset="recursos/S.7_Lab02.jpg" type="image/jpeg" />
+            <img
+              src="recursos/S.7_Lab01.jpg"
+              alt="Imagen de la galería de un laboratorio de informatica"
+              width="100%"
+              height="300"/>
+          </picture>
+          <span class="etiqueta">Destacada</span>
+          <figcaption>Imagen de la galería de un laboratorio de informatica</figcaption>
         </figure>
-    
-
-        <!--AUDIO-->
-        <section id="audio">
-            <h3>Audio de Bienvenida</h3>
-
-            <audio controls>
-                <source src="recursos/End of Line (1).mp3" type="audio/mpeg" />
-                <source src="recursos/End-of-Line-_1_.ogg" type="audio/ogg" />
-            <p> Tu navegador no soporta el elemento de audio.</p>
-            <a href="recursos/End of Line (1).mp3">Descargar el archivo de audio</a>
-            </audio>
-        </section>
-
-        <!--VIDEO-->
-        <section id="video">
-            <h3>Mini tutorial Capcut </h3>
-
-            <video controls width="800" height="500" poster="recursos/tuto.jpg" preload="metadata">
-                <source src="recursos/video2.mp4" type="video/mp4" />
-                <source src="recursos/video2.webm" type="video/webm" />
-                <track src="recursos/video2.vtt" kind="subtitles" srclang="es" label="Español" default />
-                <p>Tu navegador no soporta el elemento de video.</p>
-                <a href="recursos/video2.mp4">Descargar el archivo de video</a>
-            </video>
-
-        </section>
-
-    </article> 
-
-  <p><a href="#inicio">Volver al inicio de la página</a></p>
-
-  </main>
+        <figure>
+          <img
+          src="recursos/S.7_Lab01.jpg"
+          alt="Imagen de la galería de un laboratorio de informatica"
+          width="100%"
+          height="300"/>
+        </figure>
+ 
+        <!-- FIGURE: Agrupa un contenido con un pie -->
+         <figure>
+            <img
+            src="recursos/S.7_Lab02.jpg"
+            alt="Imagen de la galería de un laboratorio de informatica"
+            width="100%"
+            height="300"/>
+          <figcaption>
+            Imagen de la galería de un laboratorio de informatica
+          </figcaption>
+         </figure>
+     
+ 
+        <!-- Varios formatos: el navegador elige uno -->
+ 
+        <figure class="figura-destacada">
+          <picture>
+            <source srcset="recursos/S.7_Lab01.webp" type="image/webp" />
+            <source srcset="recursos/S.7_Lab02.jpg" type="image/jpeg" />
+            <img
+              src="recursos/S.7_Lab01.jpg"
+              alt="Imagen de la galería de un laboratorio de informatica"
+              width="100%"
+              height="300"/>
+          </picture>
+          <span class="etiqueta">Destacada</span>
+          <figcaption>Imagen de la galería de un laboratorio de informatica</figcaption>
+        </figure>
+       </div>
+   
+ 
+    <!--AUDIO-->
+    <section id="audio">
+        <h3>Audio de Bienvenida</h3>
+ 
+        <audio controls>
+            <source src="Recursos/End-of-Line.mp3" type="audio/mpeg"/>
+            <source src="Recursos/End-of-Line.ogg" type="audio/ogg"/>
+            <p>Tu navegador no soporta el elemento de audio.</p>
+            <a href="Recursos/End-of-Line.mp3" >Descargar audio</a>
+        </audio>
+    </section>
+ 
+    <!--VIDEO-->
+    <section id="video">
+        <h3>Mini tutorial Capcut</h3>
+ 
+        <video controls width="800" height="500" poster="Recursos/tuto.jpg" preload="metadata">
+            <source src="Recursos/video2.mp4" type="video/mp4"/>
+            <source src="Recursos/video2.webm" type="video/webm"/>
+            <track src="Recursos/video2.vtt" kind="subtitles" srclang="es" label="Español"  default/>
+           
+            <p>Tu navegador no soporta el elemento de video.</p>
+            <a href="Recursos/video2.mp4">Descargar el archivo de video</a>
+        </video>
+ 
+    </section>
+  </article>
+ 
+   <p><a href="#inicio">Volver al inicio de la página</a></p>
+ 
+   </main>
 
   <!-- PIE DE PÁGINA -->
   <footer>

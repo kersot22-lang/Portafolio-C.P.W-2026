@@ -33,36 +33,37 @@
     </nav>
   </header>
 
-  <main id="contenido">
+ <main id="contenido">
     <article>
         <h2>Gráficas vectoriales</h2>
         <!-- SVG EN LÍNEA: se dibuja con codigo (Sesión08)-->
+         <div class="targeta2">
          <section id="insignia">
             <h3>Insignia del módulo</h3>
-            <svg width="200" height="200" 
-            viewBox="0 0 200 200" 
+            <svg width="200" height="200"
+            viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg">
-
+ 
             <!--Circle: se ubica por su CENTRO (cx, cy) y su radio(r)-->
-                <circle cx="100" cy="100" r="90" fill="#C55A11" /><!--Fil: COLOR DE RELLENO-->
-
+                <circle cx="100" cy="100" r="90" fill="#4CAF50" /><!--Fil: COLOR DE RELLENO-->
+ 
                 <circle cx="100" cy="100" r="72"
-                fill="#FFF8E1" 
-                stroke="#1F4E79" 
+                fill="#FFF8E1"
+                stroke="#1F4E79"
                 stroke-width="4" /> <!--Stroke: COLOR DEL BORDE-->
-                
+               
              <!--POLYGON: lista de vértices; la figura se cierra sola-->
              <polygon points="100,45 112,80 149,80 119,102 130,137 100,115 70,137 81,102 51,80 88,80"
                       fill="#F5C518"
                       stroke="#1F4E79"
                       stroke-width="2"/>
-
+ 
             <!--text:código para crear texto svg-->
-
+ 
             <text x="100" y="160" text-anchor="middle" font-side="14" fill="#1F4E79">
-                HTML</text> 
+                HTML</text>
             </svg>
-
+ 
             <P>La insignia esta dibujada con código, no es fotografia por eso conserva su nitidez en cualquier tamaño
             </P>
          </section>
@@ -70,18 +71,59 @@
     <section id="externo">
         <h3>La misma insignia como archivo</h3>
         <img src="Recursos/insignia.svg" alt="Insignia de módulo con una estrella sobre un circulo" width="100" height="100">
-
+ 
         <p>
             Aquí la insignia se enlace desde un archivo
             <code>.svg</code> aparte. Seve igual de nitida aunque mida la mitadd, por que al ser vectorial no pierde calidad
         </p>
     </section >
-    
+    <!--copia de los articcles de la pagina-->
+     <section>
+            <h3>Insignia del módulo</h3>
+            <svg width="200" height="200"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg">
+ 
+            <!--Circle: se ubica por su CENTRO (cx, cy) y su radio(r)-->
+                <circle cx="100" cy="100" r="90" fill="#4CAF50" /><!--Fil: COLOR DE RELLENO-->
+ 
+                <circle cx="100" cy="100" r="72"
+                fill="#FFF8E1"
+                stroke="#1F4E79"
+                stroke-width="4" /> <!--Stroke: COLOR DEL BORDE-->
+               
+             <!--POLYGON: lista de vértices; la figura se cierra sola-->
+             <polygon points="100,45 112,80 149,80 119,102 130,137 100,115 70,137 81,102 51,80 88,80"
+                      fill="#F5C518"
+                      stroke="#1F4E79"
+                      stroke-width="2"/>
+ 
+            <!--text:código para crear texto svg-->
+ 
+            <text x="100" y="160" text-anchor="middle" font-side="14" fill="#1F4E79">
+                HTML</text>
+            </svg>
+ 
+            <P>La insignia esta dibujada con código, no es fotografia por eso conserva su nitidez en cualquier tamaño
+            </P>
+         </section>
+    <!--SVG como archivo externo-->
+    <section id="externo">
+        <h3>La misma insignia como archivo</h3>
+        <img src="Recursos/insignia.svg" alt="Insignia de módulo con una estrella sobre un circulo" width="100" height="100">
+ 
+        <p>
+            Aquí la insignia se enlace desde un archivo
+            <code>.svg</code> aparte. Seve igual de nitida aunque mida la mitadd, por que al ser vectorial no pierde calidad
+        </p>
+    </section >
+    </div>
     </article>
-
+ 
   <p><a href="#inicio">Volver al inicio de la página</a></p>
   </main>
 
+ 
    <!-- PIE DE PÁGINA -->
   <footer>
     <h2>Contacto</h2>
