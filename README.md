@@ -48,15 +48,13 @@ Portafolio-Codificación de Páginas Web/
 
 ### Unidad 1 · Implementación de control de versiones
 
-| Sesión | Tema         | Qué aprendí                                                                                                                                                                             |      Trabajo      |     Captura      |
-| :----: | :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: | :--------------: |
+| Sesión
 |  S01   | Git y GitHub | _(En esta clase iniciamos el modulo tres donde trabajamos Git Git Hub y Visual Studio Code, aprendimos los comandos git init, git add, git status, git commit -m , git push, git pull)_ | [ver](Unidad-01-Controlversiones/ControlDeCambios_Unidad%20de%20Aprendizaje%20N1.pdf) | [ver](Recursos/S01-evidencia-estructura-portafolio.png) |
 
 <details>
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                                                                                                                                                                                                                                                            |                Trabajo                 |                                                                          Captura                                                                          |
-| :----: | :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Sesión | Tema                           | Qué aprendí                             
 |  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo | [ver](Recursos/S02-Trabajo%20Colaborativo.png) |[ver](recursos/S02-Proyectoco.png)  |
 |  S03   | Estructura del documento HTML5 |Trabajamos en grupo rn vreacion de páginas en formato html y trabajo en github| [ver](Unidad-01-Control-versiones/Index.html)|[ver](Recursos/Captura%20trabajo%20grupal.png)|
 |  S04   | Texto, enlaces y anclas| Profundizamos en la estructura y organización de documentos HTML mediante la implementación de etiquetas semánticas, mejorando la accesibilidad y el orden lógico del sitio. Asimismo, integramos enlaces de tipo ancla para optimizar la navegación interna dentro de la misma página |[ver](Unidad-02-html/sitio-demo/articulo.html)| [ver](recursos/Evidencia-favicon.png) |
@@ -94,9 +92,9 @@ Proyecto propio construido de forma autónoma.
 | Decisión | Qué elegí | Por qué |
 |:---------|:----------|:--------|
 | Tema del sitio | Cafeteria Aromas| Permite integrar contenido visual, como archivo multimedias y estructuras con horarios sobre información de la cafetería. |
-| Atributo de la lista ordenada | `reversed` y `type="1"` | Para mostrar la secuencia cronológica de eventos artísticos desde la edición más reciente hacia la más antigua.|
-| Formatos de imagen usados | `WebP` como primera opción e `JPEG` / `PNG` de respaldo| Porque maximiza la velocidad de carga manteniendo alta fidelidad de color en las acuarelas. |
-| Formas del gráfico SVG | `<rect>`, `<circle>` y `<text>` | Esto combinadas crean un isotipo geométrico representativo del taller sin depender de archivos de imagen externos. |
+| Atributo de la lista ordenada | `reversed` y `type="1"` | Para mostrar la secuencia cronológica de promociones.|
+| Formatos de imagen usados | `WebP` como primera opción e `JPEG` / `PNG` de respaldo| Porque maximiza la velocidad de carga manteniendo alta fidelidad de color en las imágenes con los tipos de café. |
+| Formas del gráfico SVG | `<rect>`, `<circle>` y `<text>` | Esto combinadas crean un isotipo geométrico representativo de la cafetería sin depender de archivos de imagen externos. |
 
 **Cómo se ve**
 
