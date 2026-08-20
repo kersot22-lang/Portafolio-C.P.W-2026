@@ -20,7 +20,7 @@
 
     /*TIPOGRAFIA*/
 
---fuente-titulo:Georgia; serif;
+--fuente-titulo: Georgia; serif;
 --fuente-texto: 'Segoe UI0', Arial, sans-serif;
 
 /*ESPACIADO. Conversion 1rem = 10px*/
@@ -35,12 +35,43 @@
     --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
     --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
     --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
+    --transicion: 0.25s ease;
+    --acho-max: 102rem; /*1200px*/
+
+    /*RESET Y BASE TIPOGRAFIA*/
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /*la linea mas importante del reset: porque sin ella, si a una caja le damos width; 300px y ademas padding: 20px. con esta linea el relleno y el borbe se descuentan hacia adentro*/
+
+        
+         /*LA BASE DEL TAMAÑO. La técnca del 62.5%*/
+
     
+    }
     
+body {
+
+    font-size: 1.6rem; /*si no se agrega esta linea el texto no toma el valor de los 16px y quedaría un texto casi elegible*/
+    font-family: var(--fuente-texto);
+    line-height: 1.6;
+    color: var(--color-tinta);
+    background-color: var(--color-fondo);
+
+
+
+    }
+
     
     
 
-}
+    
+    
+
+
+
+
+/*RESET Y BASE TIPOGRAFIA*/
 
 
 
