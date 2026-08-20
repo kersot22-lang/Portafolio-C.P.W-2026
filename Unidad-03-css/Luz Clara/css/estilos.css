@@ -1,0 +1,23 @@
+/*ESTUDIO LUZ CLARA*/
+
+/*VARIABLES Y CONFIGURACIONES*/
+/*UNA VARIABLE GUARDA UN VALOR CON UN NOMBRE, PARA PODER REUTILIZARLO.*/
+
+/*Se declaran dentro : root, que representa el tiempo htnl y es el ancestro de todos. Todos los elementos se pueden usar*/
+
+:root {
+
+    /*paleta de colores*/
+    --color-tinta:var(#1a1a1a); /*texto principal. casi negro*/
+    --color-suave:var(#6b6b6b); /*texto secundario, pies de foto*/
+    --color-marca:var(#2c3050); /*texto principal. casi negro*/
+    --color-acento:var(#c87941); /*texto principal. casi negro*/
+    --color-acento-osc:var(#a45f2e); /*texto principal. casi negro*/
+    --color-fondo:var(#fafaf8); /*texto principal. casi negro*/
+    --color-fondo-alt:var(#f0eee3); /*texto principal. casi negro*/
+    --color-linea:var(#dddad3); /*texto principal. casi negro*/
+    --color-blanco:var(#fff); /*texto principal. casi negro*/
+    
+    
+
+}
