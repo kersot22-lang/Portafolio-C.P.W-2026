@@ -62,6 +62,60 @@ body {
 
     }
 
+    /*JERARQUIA DE TITULOS*/
+
+    h1,h2,h3 {
+
+        font-family: var(--fuente-titulo);
+        line-height: 1.2;
+        color: var(--color-marca);
+    }
+
+    h1 {
+
+        font-size: 4.8rem;
+
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    h3 {
+        font-size: 2.0;
+    }
+
+
+    p {
+        margin-bottom: var(--esp-sm);
+    }
+
+    a {
+        color: var(--color-acento);
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /*CONTENEDORES Y SECCIONES*/
+    .seccion{
+        max-width: var(--ancho-max); /*TOMA TODO EL ANCHO DISPONIBLE*/
+        margin-left: auto;
+        margin-right:auto; /*CENTRA EL BLOQUE. repartiendo el espacio sorante por igual*/
+        padding: var(--esp-xl)var(--esp-md);
+        /*DOS VALORES: EL PRIMERO AFECTA ARRIBA Y ABAJO Y LUEGO IZQUIERDA Y DERECHA*/ 
+    }
+
+    .seccion-altena {
+        background-color: var(--color-fondo-alt);
+        max-width: none; /*SE ANULA EL ANCHO MAXIMO PARA QUE EL FONDO OCUPE TODO EL ANCHO DE PANTALLA*/
+    }
+
+
     
     
 
