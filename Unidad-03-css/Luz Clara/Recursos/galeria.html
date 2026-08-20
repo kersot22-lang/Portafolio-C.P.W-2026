@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sitio Luz Clara">
+    <meta name="keywords" content="Estudio fotografico, retrato, productos y eventos en san jose">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Greivin Montero Contretras">
+    <link rel="icon" href="recursos/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Luz-Clara|Index</title>
+</head>
+<body>
+    <!-- CABECERA, se repite en todas las paginas -->
+    <header id="cabecera" class="cabecera">
+
+        
+        <a href="index.html" class="logo">
+            <!-- LOGO EN SVG 1-Cámara · dibujado con código, no es una imagen-->
+            <svg class="logo-icono" width="38" height="38" viewBox="0 0 38 38"
+                xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Logo del Estudio Luz Clara: una cámara fotográfica">
+                <rect x="2" y="9" width="34" height="25" rx="4" fill="currentColor"/>
+                <rect x="12" y="4" width="14" height="6" rx="2" fill="currentColor"/>
+                <circle cx="19" cy="22" r="8" fill="#FFFFFF"/>
+                <circle cx="19" cy="22" r="5" fill="currentColor"/>
+                <circle cx="30" cy="15" r="2" fill="#FFFFFF"/>
+            </svg>
+            <span class="logo-texto">
+                Estudio Luz Clara
+            </span>
+        </a>
+
+        <nav class="navegacion" aria-label="Navegación Principal">
+            <ul class="menu">
+                <li><a href="index.html" class="menu-enlace activo">Inicio</a></li>
+                <li><a href="galeria.html" class="menu-enlace">Galeria</a></li>
+                <li><a href="nosotros.html" class="menu-enlace">Nosotros</a></li>
+                <li><a href="contacto.html" class="menu-enlace">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="contenido">
+        <!-- PORTADA, HERO BANNER GALERIA -->
+            <section id="intro" class="pagina-encabezado">
+                <h1 class="pagina-titulo">Galería</h1>
+                <p class="pagina-bajada">Una Selección que Fotografiamos entre 2024 y 2026.</p>
+            </section>
+
+            <!-- CIFRAS, 4 DATOS GRID -->
+            <section id="cifras" class="seccion">
+                <div class="rejilla-cifras">
+
+                    <div class="cifra">
+                        <p class="cifra-numero">480</p>
+                        <p class="cifra-texto">Sesiones Realizadas</p>
+                    </div>
+
+                    <div class="cifra">
+                        <p class="cifra-numero">12</p>
+                        <p class="cifra-texto">Años de trayectoria</p>
+                    </div>
+
+                    <div class="cifra">
+                        <p class="cifra-numero">36</p>
+                        <p class="cifra-texto">Marca Acompañadas</p>
+                    </div>
+
+                    <div class="cifra">
+                        <p class="cifra-numero">98%</p>
+                        <p class="cifra-texto">Volvería a Contratarnos</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATEGORIAS CON FLEXBOX y anclas de cada seccion -->
+
+            <section id="categorias" class="seccion">
+                <h2 class="seccion-titulo">Explorar Por Categoria</h2>
+                <p class="seccion-entrada">Cada enlace lleva  a su sección dentro de esta misma página</p>
+
+                <ul class="fila-etiquetas">
+                    <li><a href="#mosaico" class="etiqueta">Todo el trabajo</a></li>
+                    <li><a href="#retrato" class="etiqueta">Retrato</a></li>
+                    <li><a href="#producto" class="etiqueta">Producto</a></li>
+                    <li><a href="#eventos" class="etiqueta">Eventos</a></li>
+                </ul>
+            </section>
+
+            <!-- MOSAICO PRINCIPAL CON GRID -->
+
+            <section id="mosaico" class="seccion seccion-alterna">
+
+                <h2 class="seccion-titulo">Todo el trabajo</h2>
+
+                <div class="mosaico">
+                    <!-- RECURSOS PARA TRABAJAR G-01 ETC OCUPAN 2 COLUMNAS-->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-01.jpg" alt="Retrato de una mujer junto a una ventana con luz natural" width="1200px" height="800px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Luz de Ventana</span>
+                            <span class="pieza-categoria">Retrato</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <!-- ocupa 2 filas -->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-02.jpg" alt="Fotografía Vertical De Una Botella De Cerámica Sobre Madera" width="600px" height="900px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Cerámica de Guaitil</span>
+                            <span class="pieza-categoria">Prodcuto</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <!-- OCUPA  -->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-03.jpg" alt="Manos Entrelazadas Durante una Ceremonia" width="600px" height="600px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Ceremonia</span>
+                            <span class="pieza-categoria">Eventos</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-04.jpg" alt="Retrato en blanco y negro dee un hombre mayor sonriendo" width="600px" height="600px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Don Rafael</span>
+                            <span class="pieza-categoria">Retrato</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <!-- OCUPA 2x2 -->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-05.jpg" alt="Vista general de un salon durante una celebracion al atardecer" width="1200px" height="1200px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Atardecer en Santa Ana</span>
+                            <span class="pieza-categoria">Eventos</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-06.jpg" alt="Taza de cafe sobre fondo neutro con sombra marcada" width="600px" height="600px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Serie Café</span>
+                            <span class="pieza-categoria">Producto</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <!-- OCUPA 2x1 -->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-07.jpg" alt="Grupo de personas coversando durante un evento corporativo" width="1200px" height="800px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Encuentro Anual</span>
+                            <span class="pieza-categoria">Eventos</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-------------------------------------------------------------------------------->
+                    <!-- OCUPA 2 filas -->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-07.jpg" alt="Retrato de cuerpo entero de bailarina en un estudio" width="600px" height="900px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Estudio De Movimiento</span>
+                            <span class="pieza-categoria">Retrato</span>
+                        </figcaption>
+                    </figure>
+                    <!-------------------------------------------------------------------------------->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-09.jpg" alt="Conjunto de joyas artesanales sobre tela oscura" width="600px" height="600px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Joyería Artesanal</span>
+                            <span class="pieza-categoria">Producto</span>
+                        </figcaption>
+                    </figure>
+                    <!-------------------------------------------------------------------------------->
+                    <figure class="pieza pieza-ancha">
+                        <img src="recursos/g-10.jpg" alt="Niña riendo durante una sesion familiar en exteriores" width="600px" height="600px" loading="lazy">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Sesión Familiar</span>
+                            <span class="pieza-categoria">Retrato</span>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </section>
+
+            <!-- SECCIONES DE CATEGORIA -->
+            <section id="retrato" class="seccion">
+                <h2 class="seccion-titulo">Retrato</h2>
+                <p class="seccion-entrada">Sesiones individuales, familiares y de perfil profesional.</p>
+
+                <div class="rejilla-categoria">
+                    <figure class="pieza">
+                        <img src="recursos/g-01.jpg" alt="Retrato de una mujer junto a una ventana con luz natural" width="1200px" height="800px">
+
+                        <figcaption class="pieza-info">
+                            <span class="pieza-titulo">Luz Ventana
+                            </span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        
+    </main>
+
+    <!-- SE REPITE EN TODAS LAS PAGINAS -->
+    <footer id="pie" class="pie">
+        <div class="columnas">
+
+            <div class="pie-bloque">
+                <h2 class="pie-titulo">Estudio Luz Clara</h2>
+                <p class="pie-texto">Fotografía con luz natural desde el 2014</p>
+            </div>
+
+            <div class="pie-bloque">
+                <h2 class="pie-titulo">Contacto</h2>
+                <address class="pie-datos">
+                    Barrio Escalante, San José<br>
+                    Costa Rica <br>
+                </address>
+            </div>
+
+            <div class="pie-bloque">
+                <h2 class="pie-titulo">Horario</h2>
+                <p class="pie-texto">Lunes a Viernes <br> 9:00 a.m - 6:00 p.m</p>
+            </div>
+
+        </div>
+
+        <p class="pie-creditos"><small>&copy; 2026 | Estudio Luz Clara</small></p>
+    </footer>
+</body>
+</html>
