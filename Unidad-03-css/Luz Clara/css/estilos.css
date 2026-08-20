@@ -17,7 +17,31 @@
     --color-fondo-alt:var(#f0eee3); /*texto principal. casi negro*/
     --color-linea:var(#dddad3); /*texto principal. casi negro*/
     --color-blanco:var(#fff); /*texto principal. casi negro*/
+
+    /*TIPOGRAFIA*/
+
+--fuente-titulo:Georgia; serif;
+--fuente-texto: 'Segoe UI0', Arial, sans-serif;
+
+/*ESPACIADO. Conversion 1rem = 10px*/
+--esp-xs: 0.8rem; /*8px*/
+--esp-sm: 1.6rem; /*8px*/
+--esp-md: 2.4rem; /*8px*/
+--esp-lg: 4rem; /*8px*/
+--esp-xl: 8rem; /*8px*/
+
+/*OTROS ELEMENTOS*/
+    --radio: 0.6rem; /*6px*/
+    --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
+    --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
+    --sombra-1: 0 0.2rem 00.6rem rgba(0,0,0,.06); /*APENAS SEPARADO*/
+    
+    
     
     
 
 }
+
+
+
+
